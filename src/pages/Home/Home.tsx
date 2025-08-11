@@ -11,7 +11,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
   const featuredImages = [
     portfolioData.Fashion[1],
     portfolioData.Product[1],
-    portfolioData.Ecommerce[0],
+    portfolioData.Ecommerce[36],
   ];
 
   useEffect(() => {
