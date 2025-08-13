@@ -8,9 +8,12 @@ export interface ImageData {
 
 export type CategoryType = 'Fashion' | 'Product' | 'Ecommerce';
 
-export interface PortfolioData {
-  [key: string]: ImageData[];
-}
+export type PortfolioData = {
+  Fashion: ImageData[];
+  Product: ImageData[];
+  Ecommerce: ImageData[];
+};
+
 
 export interface NavigationItem {
   name: string;

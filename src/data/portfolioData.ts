@@ -1713,7 +1713,6 @@ export const portfolioData: PortfolioData = {
   Product: productImages,
   Ecommerce: ecommerceImages,
 };
-
 export const navigationItems: NavigationItem[] = [
   { name: "Fashion", path: "/fashion", category: "Fashion" },
   { name: "Product", path: "/product", category: "Product" },

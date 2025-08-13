@@ -1,9 +1,32 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
+import Masonry from "react-masonry-css";
+import type { ImageData } from "../../types";
 
-const ImageGallery = ({ images, category, onImageClick }) => {
+type ImageGalleryProps = {
+  images: ImageData[];
+  category: string;
+  onImageClick: (image: ImageData, index: number) => void;
+};
+
+const ImageGallery: React.FC<ImageGalleryProps> = ({
+  images,
+  category,
+  onImageClick,
+}) => {
   useEffect(() => {
-    console.log(`Rendering ImageGallery for category ${category} with ${images.length} images:`, images);
+    console.log(
+      `Rendering ImageGallery for category ${category} with ${images.length} images:`,
+      images
+    );
   }, [images, category]);
+
+  // Masonry responsive breakpoints
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 3,
+    768: 2,
+    500: 1,
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
@@ -16,11 +39,15 @@ const ImageGallery = ({ images, category, onImageClick }) => {
       </div>
 
       {/* Masonry Grid */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+      <Masonry
+        breakpointCols={breakpointColumnsObj}
+        className="flex gap-6"
+        columnClassName=""
+      >
         {images.map((image, index) => (
           <div
             key={image.id}
-            className="break-inside-avoid cursor-pointer overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all duration-300"
+            className="mb-6 cursor-pointer overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all duration-300"
             onClick={() => {
               console.log(`Clicked image: ${image.id}, index: ${index}`);
               onImageClick(image, index);
@@ -31,11 +58,13 @@ const ImageGallery = ({ images, category, onImageClick }) => {
               alt={image.alt}
               className="w-full h-auto object-contain"
               loading="lazy"
-              onError={() => console.error(`Failed to load image: ${image.url}`)}
+              onError={() =>
+                console.error(`Failed to load image: ${image.url}`)
+              }
             />
           </div>
         ))}
-      </div>
+      </Masonry>
 
       {images.length === 0 && (
         <div className="text-center py-20">
