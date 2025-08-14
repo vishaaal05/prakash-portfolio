@@ -787,6 +787,1224 @@ const fashionImages: ImageData[] = [
     alt: "Fashion Photography 131",
     category: "Fashion",
   },
+    {
+    id: "fashion-132",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755197843/portfolio/Fashion/compressed_0F0A0630_final.jpg",
+    alt: "Fashion Photography 132",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-133",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755197844/portfolio/Fashion/compressed_0F0A0636_final.jpg",
+    alt: "Fashion Photography 133",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-134",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198024/portfolio/Fashion/compressed_0F0A0717_final.jpg",
+    alt: "Fashion Photography 134",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-135",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198026/portfolio/Fashion/compressed_0F0A0734_final.jpg",
+    alt: "Fashion Photography 135",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-136",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198027/portfolio/Fashion/compressed_0F0A0795_final.jpg",
+    alt: "Fashion Photography 136",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-137",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198029/portfolio/Fashion/compressed_0F0A0959_final.jpg",
+    alt: "Fashion Photography 137",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-138",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198030/portfolio/Fashion/compressed_0F0A1001_final.jpg",
+    alt: "Fashion Photography 138",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-139",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198032/portfolio/Fashion/compressed_0F0A1019_final.jpg",
+    alt: "Fashion Photography 139",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-140",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198033/portfolio/Fashion/compressed_0F0A1029_final.jpg",
+    alt: "Fashion Photography 140",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-141",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198035/portfolio/Fashion/compressed_0F0A1046_final.jpg",
+    alt: "Fashion Photography 141",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-142",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198037/portfolio/Fashion/compressed_0F0A1162_final.jpg",
+    alt: "Fashion Photography 142",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-143",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198038/portfolio/Fashion/compressed_0F0A1196_final.jpg",
+    alt: "Fashion Photography 143",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-144",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198040/portfolio/Fashion/compressed_0U9A9354_final.jpg",
+    alt: "Fashion Photography 144",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-145",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198041/portfolio/Fashion/compressed_0U9A9890_fianl.jpg",
+    alt: "Fashion Photography 145",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-146",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198043/portfolio/Fashion/compressed_0U9A9963_fianl.jpg",
+    alt: "Fashion Photography 146",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-148",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198058/portfolio/Fashion/compressed_3J3A7418_final.jpg",
+    alt: "Fashion Photography 148",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-149",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198059/portfolio/Fashion/compressed_3J3A7430_final.jpg",
+    alt: "Fashion Photography 149",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-150",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198061/portfolio/Fashion/compressed_3J3A7453_final.jpg",
+    alt: "Fashion Photography 150",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-151",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198064/portfolio/Fashion/compressed_3J3A7480_final.jpg",
+    alt: "Fashion Photography 151",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-152",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198066/portfolio/Fashion/compressed_3J3A7484_final.jpg",
+    alt: "Fashion Photography 152",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-153",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198067/portfolio/Fashion/compressed_3J3A7550_final.jpg",
+    alt: "Fashion Photography 153",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-154",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198069/portfolio/Fashion/compressed_3J3A7554_fianl.jpg",
+    alt: "Fashion Photography 154",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-155",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198071/portfolio/Fashion/compressed_3J3A7675_final.jpg",
+    alt: "Fashion Photography 155",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-156",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198073/portfolio/Fashion/compressed_3J3A7685_final.jpg",
+    alt: "Fashion Photography 156",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-157",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198075/portfolio/Fashion/compressed_3J3A7696_final.jpg",
+    alt: "Fashion Photography 157",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-158",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198077/portfolio/Fashion/compressed_3J3A7702_final.jpg",
+    alt: "Fashion Photography 158",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-159",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198079/portfolio/Fashion/compressed_3J3A7711_final.jpg",
+    alt: "Fashion Photography 159",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-160",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198080/portfolio/Fashion/compressed_4I9A0458_final_2.jpg",
+    alt: "Fashion Photography 160",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-161",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198083/portfolio/Fashion/compressed_4I9A0458_final_crop.jpg",
+    alt: "Fashion Photography 161",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-162",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198085/portfolio/Fashion/compressed_4I9A0458_final.jpg",
+    alt: "Fashion Photography 162",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-163",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198086/portfolio/Fashion/compressed_4I9A0513_final_crop.jpg",
+    alt: "Fashion Photography 163",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-164",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198087/portfolio/Fashion/compressed_4I9A0513_final.jpg",
+    alt: "Fashion Photography 164",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-165",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198089/portfolio/Fashion/compressed_4I9A0540_final_crop.jpg",
+    alt: "Fashion Photography 165",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-166",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198091/portfolio/Fashion/compressed_4I9A0540_final.jpg",
+    alt: "Fashion Photography 166",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-167",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198092/portfolio/Fashion/compressed_4I9A0659_final_crop.jpg",
+    alt: "Fashion Photography 167",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-168",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198094/portfolio/Fashion/compressed_4I9A0659_final.jpg",
+    alt: "Fashion Photography 168",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-169",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198095/portfolio/Fashion/compressed_4I9A1016_final_crop.jpg",
+    alt: "Fashion Photography 169",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-170",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198097/portfolio/Fashion/compressed_4I9A1016_final.jpg",
+    alt: "Fashion Photography 170",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-171",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198099/portfolio/Fashion/compressed_4I9A1028_final_crop.jpg",
+    alt: "Fashion Photography 171",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-172",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198101/portfolio/Fashion/compressed_4I9A1028_final.jpg",
+    alt: "Fashion Photography 172",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-173",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198103/portfolio/Fashion/compressed_4I9A1092_final_crop.jpg",
+    alt: "Fashion Photography 173",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-174",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198105/portfolio/Fashion/compressed_4I9A1092_final.jpg",
+    alt: "Fashion Photography 174",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-175",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198106/portfolio/Fashion/compressed_4I9A1109_final_2.jpg",
+    alt: "Fashion Photography 175",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-176",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198108/portfolio/Fashion/compressed_4I9A1109_final_crop.jpg",
+    alt: "Fashion Photography 176",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-177",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198110/portfolio/Fashion/compressed_4I9A1109_final.jpg",
+    alt: "Fashion Photography 177",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-178",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198111/portfolio/Fashion/compressed_4I9A1188_fianl_crop.jpg",
+    alt: "Fashion Photography 178",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-179",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198114/portfolio/Fashion/compressed_4I9A1188_fianl.jpg",
+    alt: "Fashion Photography 179",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-180",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198115/portfolio/Fashion/compressed_4I9A1220_fianl_crop.jpg",
+    alt: "Fashion Photography 180",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-181",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198117/portfolio/Fashion/compressed_4I9A1220_fianl.jpg",
+    alt: "Fashion Photography 181",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-182",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198118/portfolio/Fashion/compressed_4I9A1320_fianl_crop.jpg",
+    alt: "Fashion Photography 182",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-183",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198120/portfolio/Fashion/compressed_4I9A1320_fianl.jpg",
+    alt: "Fashion Photography 183",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-184",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198122/portfolio/Fashion/compressed_4I9A1327_fianl_crop.jpg",
+    alt: "Fashion Photography 184",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-185",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198125/portfolio/Fashion/compressed_4I9A1327_fianl.jpg",
+    alt: "Fashion Photography 185",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-186",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198127/portfolio/Fashion/compressed_4I9A1329_fianl_crop.jpg",
+    alt: "Fashion Photography 186",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-187",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198130/portfolio/Fashion/compressed_4I9A1329_fianl.jpg",
+    alt: "Fashion Photography 187",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-189",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198140/portfolio/Fashion/compressed_DSC00028.jpg",
+    alt: "Fashion Photography 189",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-190",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198142/portfolio/Fashion/compressed_DSC00040.jpg",
+    alt: "Fashion Photography 190",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-191",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198143/portfolio/Fashion/compressed_DSC00399.jpg",
+    alt: "Fashion Photography 191",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-192",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198145/portfolio/Fashion/compressed_DSC00480.jpg",
+    alt: "Fashion Photography 192",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-193",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198147/portfolio/Fashion/compressed_DSC00485.jpg",
+    alt: "Fashion Photography 193",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-194",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198148/portfolio/Fashion/compressed_DSC00487.jpg",
+    alt: "Fashion Photography 194",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-195",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198150/portfolio/Fashion/compressed_DSC00487.jpg",
+    alt: "Fashion Photography 195",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-196",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198152/portfolio/Fashion/compressed_DSC00489.jpg",
+    alt: "Fashion Photography 196",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-197",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198154/portfolio/Fashion/compressed_DSC00494.jpg",
+    alt: "Fashion Photography 197",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-198",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198157/portfolio/Fashion/compressed_DSC00497.jpg",
+    alt: "Fashion Photography 198",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-199",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198159/portfolio/Fashion/compressed_DSC00505.jpg",
+    alt: "Fashion Photography 199",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-200",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198160/portfolio/Fashion/compressed_DSC00515.jpg",
+    alt: "Fashion Photography 200",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-201",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198162/portfolio/Fashion/compressed_DSC00515.jpg",
+    alt: "Fashion Photography 201",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-202",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198164/portfolio/Fashion/compressed_DSC00516.jpg",
+    alt: "Fashion Photography 202",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-203",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198166/portfolio/Fashion/compressed_DSC00522.jpg",
+    alt: "Fashion Photography 203",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-204",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198168/portfolio/Fashion/compressed_DSC00528.jpg",
+    alt: "Fashion Photography 204",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-205",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198170/portfolio/Fashion/compressed_DSC00529.jpg",
+    alt: "Fashion Photography 205",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-206",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198171/portfolio/Fashion/compressed_DSC00530.jpg",
+    alt: "Fashion Photography 206",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-207",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198173/portfolio/Fashion/compressed_DSC00540.jpg",
+    alt: "Fashion Photography 207",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-208",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198176/portfolio/Fashion/compressed_DSC00549.jpg",
+    alt: "Fashion Photography 208",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-209",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198179/portfolio/Fashion/compressed_DSC00560.jpg",
+    alt: "Fashion Photography 209",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-210",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198180/portfolio/Fashion/compressed_DSC00579.jpg",
+    alt: "Fashion Photography 210",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-211",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198182/portfolio/Fashion/compressed_DSC00584.jpg",
+    alt: "Fashion Photography 211",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-212",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198184/portfolio/Fashion/compressed_DSC00585.jpg",
+    alt: "Fashion Photography 212",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-213",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198186/portfolio/Fashion/compressed_DSC00591.jpg",
+    alt: "Fashion Photography 213",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-214",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198188/portfolio/Fashion/compressed_DSC00592.jpg",
+    alt: "Fashion Photography 214",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-215",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198190/portfolio/Fashion/compressed_DSC00600.jpg",
+    alt: "Fashion Photography 215",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-216",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198192/portfolio/Fashion/compressed_DSC00604.jpg",
+    alt: "Fashion Photography 216",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-217",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198194/portfolio/Fashion/compressed_DSC00678.jpg",
+    alt: "Fashion Photography 217",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-218",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198195/portfolio/Fashion/compressed_DSC00697.jpg",
+    alt: "Fashion Photography 218",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-219",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198197/portfolio/Fashion/compressed_DSC00810.jpg",
+    alt: "Fashion Photography 219",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-220",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198199/portfolio/Fashion/compressed_DSC00830.jpg",
+    alt: "Fashion Photography 220",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-221",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198201/portfolio/Fashion/compressed_DSC00905.jpg",
+    alt: "Fashion Photography 221",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-222",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198203/portfolio/Fashion/compressed_DSC00963.jpg",
+    alt: "Fashion Photography 222",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-223",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198204/portfolio/Fashion/compressed_DSC00967.jpg",
+    alt: "Fashion Photography 223",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-224",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198206/portfolio/Fashion/compressed_DSC01011.jpg",
+    alt: "Fashion Photography 224",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-225",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198208/portfolio/Fashion/compressed_DSC01033.jpg",
+    alt: "Fashion Photography 225",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-226",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198209/portfolio/Fashion/compressed_DSC01033.jpg",
+    alt: "Fashion Photography 226",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-227",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198212/portfolio/Fashion/compressed_DSC01040_copy.jpg",
+    alt: "Fashion Photography 227",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-228",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198213/portfolio/Fashion/compressed_DSC01046_final.jpg",
+    alt: "Fashion Photography 228",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-229",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198215/portfolio/Fashion/compressed_DSC01082.jpg",
+    alt: "Fashion Photography 229",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-230",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198217/portfolio/Fashion/compressed_DSC01084.jpg",
+    alt: "Fashion Photography 230",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-231",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198219/portfolio/Fashion/compressed_DSC01089_final.jpg",
+    alt: "Fashion Photography 231",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-232",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198220/portfolio/Fashion/compressed_DSC01095.jpg",
+    alt: "Fashion Photography 232",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-233",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198222/portfolio/Fashion/compressed_DSC01102_final.jpg",
+    alt: "Fashion Photography 233",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-234",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198224/portfolio/Fashion/compressed_DSC01112.jpg",
+    alt: "Fashion Photography 234",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-235",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198226/portfolio/Fashion/compressed_DSC01118_final.jpg",
+    alt: "Fashion Photography 235",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-236",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198228/portfolio/Fashion/compressed_DSC01162_final.jpg",
+    alt: "Fashion Photography 236",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-237",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198229/portfolio/Fashion/compressed_DSC01181.jpg",
+    alt: "Fashion Photography 237",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-238",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198233/portfolio/Fashion/compressed_DSC01384.jpg",
+    alt: "Fashion Photography 238",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-239",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198237/portfolio/Fashion/compressed_DSC01392.jpg",
+    alt: "Fashion Photography 239",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-240",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198243/portfolio/Fashion/compressed_DSC01400.jpg",
+    alt: "Fashion Photography 240",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-241",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198245/portfolio/Fashion/compressed_DSC01404.jpg",
+    alt: "Fashion Photography 241",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-242",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198246/portfolio/Fashion/compressed_DSC01434.jpg",
+    alt: "Fashion Photography 242",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-243",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198248/portfolio/Fashion/compressed_DSC01531.jpg",
+    alt: "Fashion Photography 243",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-244",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198250/portfolio/Fashion/compressed_DSC01546.jpg",
+    alt: "Fashion Photography 244",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-245",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198251/portfolio/Fashion/compressed_DSC01571.jpg",
+    alt: "Fashion Photography 245",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-246",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198253/portfolio/Fashion/compressed_DSC01571.jpg",
+    alt: "Fashion Photography 246",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-247",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198255/portfolio/Fashion/compressed_DSC01646.jpg",
+    alt: "Fashion Photography 247",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-248",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198257/portfolio/Fashion/compressed_DSC01653.jpg",
+    alt: "Fashion Photography 248",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-249",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198258/portfolio/Fashion/compressed_DSC01764.jpg",
+    alt: "Fashion Photography 249",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-250",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198261/portfolio/Fashion/compressed_DSC04393_copy.jpg",
+    alt: "Fashion Photography 250",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-251",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198262/portfolio/Fashion/compressed_DSC04415.jpg",
+    alt: "Fashion Photography 251",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-252",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198264/portfolio/Fashion/compressed_DSC04479_copy.jpg",
+    alt: "Fashion Photography 252",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-253",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198264/portfolio/Fashion/compressed_DSC04479_copy.jpg",
+    alt: "Fashion Photography 253",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-254",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198264/portfolio/Fashion/compressed_DSC04479_copy.jpg",
+    alt: "Fashion Photography 254",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-255",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198269/portfolio/Fashion/compressed_DSC04479.jpg",
+    alt: "Fashion Photography 255",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-256",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198271/portfolio/Fashion/compressed_DSC04487.jpg",
+    alt: "Fashion Photography 256",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-257",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198272/portfolio/Fashion/compressed_DSC04508.jpg",
+    alt: "Fashion Photography 257",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-258",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198274/portfolio/Fashion/compressed_DSC04519_copy.jpg",
+    alt: "Fashion Photography 258",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-259",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198275/portfolio/Fashion/compressed_DSC04519_copy.jpg",
+    alt: "Fashion Photography 259",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-260",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198275/portfolio/Fashion/compressed_DSC04519_copy.jpg",
+    alt: "Fashion Photography 260",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-261",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198275/portfolio/Fashion/compressed_DSC04519_copy.jpg",
+    alt: "Fashion Photography 261",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-262",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198281/portfolio/Fashion/compressed_DSC04583.jpg",
+    alt: "Fashion Photography 262",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-263",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198283/portfolio/Fashion/compressed_DSC04597.jpg",
+    alt: "Fashion Photography 263",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-264",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198284/portfolio/Fashion/compressed_DSC04701_copy.jpg",
+    alt: "Fashion Photography 264",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-265",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198286/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+    alt: "Fashion Photography 265",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-266",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+    alt: "Fashion Photography 266",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-267",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+    alt: "Fashion Photography 267",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-268",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198292/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+    alt: "Fashion Photography 268",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-269",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198294/portfolio/Fashion/compressed_DSC04716.jpg",
+    alt: "Fashion Photography 269",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-270",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198295/portfolio/Fashion/compressed_DSC04742_copy.jpg",
+    alt: "Fashion Photography 270",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-271",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198297/portfolio/Fashion/compressed_DSC04744_copy.jpg",
+    alt: "Fashion Photography 271",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-272",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198299/portfolio/Fashion/compressed_DSC04745_copy.jpg",
+    alt: "Fashion Photography 272",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-273",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198300/portfolio/Fashion/compressed_DSC04755_copy.jpg",
+    alt: "Fashion Photography 273",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-274",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198302/portfolio/Fashion/compressed_DSC04756_copy.jpg",
+    alt: "Fashion Photography 274",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-275",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198304/portfolio/Fashion/compressed_DSC04763_2_copy.jpg",
+    alt: "Fashion Photography 275",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-276",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198306/portfolio/Fashion/compressed_DSC04763_copy.jpg",
+    alt: "Fashion Photography 276",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-277",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198308/portfolio/Fashion/compressed_DSC04791_copy.jpg",
+    alt: "Fashion Photography 277",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-278",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198310/portfolio/Fashion/compressed_DSC04844_copy.jpg",
+    alt: "Fashion Photography 278",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-279",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198313/portfolio/Fashion/compressed_DSC04853_copy.jpg",
+    alt: "Fashion Photography 279",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-280",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198314/portfolio/Fashion/compressed_DSC04855_copy.jpg",
+    alt: "Fashion Photography 280",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-281",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198316/portfolio/Fashion/compressed_DSC04885_copy.jpg",
+    alt: "Fashion Photography 281",
+    category: "Fashion"
+  },
+    {
+    id: "fashion-282",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198318/portfolio/Fashion/compressed_DSC04890.jpg",
+    alt: "Fashion Photography 282",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-283",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198318/portfolio/Fashion/compressed_DSC04890.jpg",
+    alt: "Fashion Photography 283",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-284",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198319/portfolio/Fashion/compressed_DSC04891.jpg",
+    alt: "Fashion Photography 284",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-285",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198321/portfolio/Fashion/compressed_DSC04899_copy.jpg",
+    alt: "Fashion Photography 285",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-286",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198323/portfolio/Fashion/compressed_DSC05059.jpg",
+    alt: "Fashion Photography 286",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-287",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198325/portfolio/Fashion/compressed_DSC05254.jpg",
+    alt: "Fashion Photography 287",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-288",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198326/portfolio/Fashion/compressed_DSC05332.jpg",
+    alt: "Fashion Photography 288",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-289",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198328/portfolio/Fashion/compressed_DSC05562.jpg",
+    alt: "Fashion Photography 289",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-290",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198330/portfolio/Fashion/compressed_DSC05575.jpg",
+    alt: "Fashion Photography 290",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-291",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198332/portfolio/Fashion/compressed_DSC05614.jpg",
+    alt: "Fashion Photography 291",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-292",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198333/portfolio/Fashion/compressed_DSC05743.jpg",
+    alt: "Fashion Photography 292",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-293",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198335/portfolio/Fashion/compressed_DSC05777.jpg",
+    alt: "Fashion Photography 293",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-294",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198337/portfolio/Fashion/compressed_DSC05851.jpg",
+    alt: "Fashion Photography 294",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-295",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198339/portfolio/Fashion/compressed_DSC05858.jpg",
+    alt: "Fashion Photography 295",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-296",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198341/portfolio/Fashion/compressed_DSC05896.jpg",
+    alt: "Fashion Photography 296",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-297",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198342/portfolio/Fashion/compressed_DSC05989.jpg",
+    alt: "Fashion Photography 297",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-298",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198344/portfolio/Fashion/compressed_DSC06030.jpg",
+    alt: "Fashion Photography 298",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-299",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198346/portfolio/Fashion/compressed_DSC06087.jpg",
+    alt: "Fashion Photography 299",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-300",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198347/portfolio/Fashion/compressed_DSC06129.jpg",
+    alt: "Fashion Photography 300",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-301",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198349/portfolio/Fashion/compressed_DSC06141.jpg",
+    alt: "Fashion Photography 301",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-302",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198353/portfolio/Fashion/compressed_DSC06148.jpg",
+    alt: "Fashion Photography 302",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-303",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198355/portfolio/Fashion/compressed_DSC06172.jpg",
+    alt: "Fashion Photography 303",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-304",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198356/portfolio/Fashion/compressed_DSC06279.jpg",
+    alt: "Fashion Photography 304",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-305",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198358/portfolio/Fashion/compressed_DSC06812.jpg",
+    alt: "Fashion Photography 305",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-306",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198359/portfolio/Fashion/compressed_DSC07814_1.jpg",
+    alt: "Fashion Photography 306",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-307",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198361/portfolio/Fashion/compressed_DSC07825_1.jpg",
+    alt: "Fashion Photography 307",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-308",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198362/portfolio/Fashion/compressed_DSC07847_2_1.jpg",
+    alt: "Fashion Photography 308",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-309",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198364/portfolio/Fashion/compressed_DSC08902.jpg",
+    alt: "Fashion Photography 309",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-310",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198365/portfolio/Fashion/compressed_DSC09130.jpg",
+    alt: "Fashion Photography 310",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-311",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198367/portfolio/Fashion/compressed_DSC09158.jpg",
+    alt: "Fashion Photography 311",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-312",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198369/portfolio/Fashion/compressed_DSC09285.jpg",
+    alt: "Fashion Photography 312",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-313",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198370/portfolio/Fashion/compressed_DSC09289.jpg",
+    alt: "Fashion Photography 313",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-314",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198372/portfolio/Fashion/compressed_DSC09321.jpg",
+    alt: "Fashion Photography 314",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-315",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198374/portfolio/Fashion/compressed_DSC09322.jpg",
+    alt: "Fashion Photography 315",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-316",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198376/portfolio/Fashion/compressed_DSC09323.jpg",
+    alt: "Fashion Photography 316",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-317",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198378/portfolio/Fashion/compressed_DSC09432.jpg",
+    alt: "Fashion Photography 317",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-318",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198379/portfolio/Fashion/compressed_DSC09440.jpg",
+    alt: "Fashion Photography 318",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-319",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198381/portfolio/Fashion/compressed_DSC09441.jpg",
+    alt: "Fashion Photography 319",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-320",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198383/portfolio/Fashion/compressed_DSC09475.jpg",
+    alt: "Fashion Photography 320",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-321",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198385/portfolio/Fashion/compressed_DSC09491.jpg",
+    alt: "Fashion Photography 321",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-322",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198386/portfolio/Fashion/compressed_DSC09507.jpg",
+    alt: "Fashion Photography 322",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-323",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198388/portfolio/Fashion/compressed_DSC09537.jpg",
+    alt: "Fashion Photography 323",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-324",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198390/portfolio/Fashion/compressed_DSC09549.jpg",
+    alt: "Fashion Photography 324",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-325",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198391/portfolio/Fashion/compressed_DSC09573_2.jpg",
+    alt: "Fashion Photography 325",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-326",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198393/portfolio/Fashion/compressed_DSC09581.jpg",
+    alt: "Fashion Photography 326",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-327",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198395/portfolio/Fashion/compressed_DSC09619.jpg",
+    alt: "Fashion Photography 327",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-328",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198397/portfolio/Fashion/compressed_DSC09653.jpg",
+    alt: "Fashion Photography 328",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-329",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198399/portfolio/Fashion/compressed_DSC09707.jpg",
+    alt: "Fashion Photography 329",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-330",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198400/portfolio/Fashion/compressed_DSC09790_ff.jpg",
+    alt: "Fashion Photography 330",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-332",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198411/portfolio/Fashion/compressed__MG_0111_ff.jpg",
+    alt: "Fashion Photography 332",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-333",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198412/portfolio/Fashion/compressed__MG_0179_ff.jpg",
+    alt: "Fashion Photography 333",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-334",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198416/portfolio/Fashion/compressed__MG_0239_ff.jpg",
+    alt: "Fashion Photography 334",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-335",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198420/portfolio/Fashion/compressed__MG_0366_ff.jpg",
+    alt: "Fashion Photography 335",
+    category: "Fashion"
+  },
+  {
+    id: "fashion-336",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198421/portfolio/Fashion/compressed__MG_0454_ff.jpg",
+    alt: "Fashion Photography 336",
+    category: "Fashion"
+  }, 
+  {
+    id: "fashion-337",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198423/portfolio/Fashion/compressed__MG_9968_ff.jpg",
+    alt: "Fashion Photography 337",
+    category: "Fashion"
+  }
 ];
 
 const productImages: ImageData[] = [
@@ -1162,6 +2380,246 @@ const productImages: ImageData[] = [
     alt: "Product Photography 62",
     category: "Product",
   },
+  {
+    id: "product-63",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196275/portfolio/Product/compressed_02_copy.jpg",
+    alt: "Product Photography 63",
+    category: "Product"
+  },
+  {
+    id: "product-64",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196277/portfolio/Product/compressed_1.jpg",
+    alt: "Product Photography 64",
+    category: "Product"
+  },
+  {
+    id: "product-65",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196279/portfolio/Product/compressed_10.jpg",
+    alt: "Product Photography 65",
+    category: "Product"
+  },
+  {
+    id: "product-66",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196281/portfolio/Product/compressed_11.jpg",
+    alt: "Product Photography 66",
+    category: "Product"
+  },
+  {
+    id: "product-67",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196283/portfolio/Product/compressed_15.jpg",
+    alt: "Product Photography 67",
+    category: "Product"
+  },
+  {
+    id: "product-68",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196285/portfolio/Product/compressed_18.jpg",
+    alt: "Product Photography 68",
+    category: "Product"
+  },
+  {
+    id: "product-69",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196288/portfolio/Product/compressed_19.jpg",
+    alt: "Product Photography 69",
+    category: "Product"
+  },
+  {
+    id: "product-70",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196291/portfolio/Product/compressed_20.jpg",
+    alt: "Product Photography 70",
+    category: "Product"
+  },
+  {
+    id: "product-71",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196293/portfolio/Product/compressed_21.jpg",
+    alt: "Product Photography 71",
+    category: "Product"
+  },
+  {
+    id: "product-72",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196296/portfolio/Product/compressed_25.jpg",
+    alt: "Product Photography 72",
+    category: "Product"
+  },
+  {
+    id: "product-73",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196298/portfolio/Product/compressed_26.jpg",
+    alt: "Product Photography 73",
+    category: "Product"
+  },
+  {
+    id: "product-74",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196301/portfolio/Product/compressed_29.jpg",
+    alt: "Product Photography 74",
+    category: "Product"
+  },
+  {
+    id: "product-75",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196303/portfolio/Product/compressed_30.jpg",
+    alt: "Product Photography 75",
+    category: "Product"
+  },
+  {
+    id: "product-76",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196306/portfolio/Product/compressed_31.jpg",
+    alt: "Product Photography 76",
+    category: "Product"
+  },
+  {
+    id: "product-77",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196308/portfolio/Product/compressed_32.jpg",
+    alt: "Product Photography 77",
+    category: "Product"
+  },
+  {
+    id: "product-78",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196310/portfolio/Product/compressed_37.jpg",
+    alt: "Product Photography 78",
+    category: "Product"
+  },
+  {
+    id: "product-79",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196311/portfolio/Product/compressed_38.jpg",
+    alt: "Product Photography 79",
+    category: "Product"
+  },
+  {
+    id: "product-80",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196313/portfolio/Product/compressed_39.jpg",
+    alt: "Product Photography 80",
+    category: "Product"
+  },
+  {
+    id: "product-81",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196315/portfolio/Product/compressed_4.jpg",
+    alt: "Product Photography 81",
+    category: "Product"
+  },
+  {
+    id: "product-82",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196319/portfolio/Product/compressed_40.jpg",
+    alt: "Product Photography 82",
+    category: "Product"
+  },
+  {
+    id: "product-83",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196322/portfolio/Product/compressed_59.jpg",
+    alt: "Product Photography 83",
+    category: "Product"
+  },
+  {
+    id: "product-84",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196325/portfolio/Product/compressed_60.jpg",
+    alt: "Product Photography 84",
+    category: "Product"
+  },
+  {
+    id: "product-85",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196327/portfolio/Product/compressed_61.jpg",
+    alt: "Product Photography 85",
+    category: "Product"
+  },
+  {
+    id: "product-86",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196329/portfolio/Product/compressed_62.jpg",
+    alt: "Product Photography 86",
+    category: "Product"
+  },
+  {
+    id: "product-87",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196331/portfolio/Product/compressed_64.jpg",
+    alt: "Product Photography 87",
+    category: "Product"
+  },
+  {
+    id: "product-88",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196334/portfolio/Product/compressed_66.jpg",
+    alt: "Product Photography 88",
+    category: "Product"
+  },
+  {
+    id: "product-89",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196336/portfolio/Product/compressed_67.jpg",
+    alt: "Product Photography 89",
+    category: "Product"
+  },
+  {
+    id: "product-90",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196339/portfolio/Product/compressed_68.jpg",
+    alt: "Product Photography 90",
+    category: "Product"
+  },
+  {
+    id: "product-91",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196342/portfolio/Product/compressed_69.jpg",
+    alt: "Product Photography 91",
+    category: "Product"
+  },
+  {
+    id: "product-92",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196344/portfolio/Product/compressed_72.jpg",
+    alt: "Product Photography 92",
+    category: "Product"
+  },
+  {
+    id: "product-93",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196346/portfolio/Product/compressed_73.jpg",
+    alt: "Product Photography 93",
+    category: "Product"
+  },
+  {
+    id: "product-94",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196349/portfolio/Product/compressed_76.jpg",
+    alt: "Product Photography 94",
+    category: "Product"
+  },
+  {
+    id: "product-95",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196351/portfolio/Product/compressed_77.jpg",
+    alt: "Product Photography 95",
+    category: "Product"
+  },
+  {
+    id: "product-96",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196353/portfolio/Product/compressed_78.jpg",
+    alt: "Product Photography 96",
+    category: "Product"
+  },
+  {
+    id: "product-97",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196355/portfolio/Product/compressed_79.jpg",
+    alt: "Product Photography 97",
+    category: "Product"
+  },
+  {
+    id: "product-98",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196357/portfolio/Product/compressed_8.jpg",
+    alt: "Product Photography 98",
+    category: "Product"
+  },
+  {
+    id: "product-99",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196359/portfolio/Product/compressed_81.jpg",
+    alt: "Product Photography 99",
+    category: "Product"
+  },
+  {
+    id: "product-100",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196360/portfolio/Product/compressed_82.jpg",
+    alt: "Product Photography 100",
+    category: "Product"
+  },
+  {
+    id: "product-101",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196362/portfolio/Product/compressed_83.jpg",
+    alt: "Product Photography 101",
+    category: "Product"
+  },
+  {
+    id: "product-102",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755196364/portfolio/Product/compressed_85.jpg",
+    alt: "Product Photography 102",
+    category: "Product"
+  }
 ];
 
 
@@ -1707,6 +3165,120 @@ const ecommerceImages: ImageData[] = [
     alt: "Ecommerce Photography 99",
     category: "Ecommerce",
   },
+  {
+    id: "ecommerce-91",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195697/portfolio/Ecommerce/compressed_12.jpg",
+    alt: "Ecommerce Photography 91",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-92",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195699/portfolio/Ecommerce/compressed_13.jpg",
+    alt: "Ecommerce Photography 92",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-93",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195700/portfolio/Ecommerce/compressed_21.jpg",
+    alt: "Ecommerce Photography 93",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-94",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195702/portfolio/Ecommerce/compressed_27.jpg",
+    alt: "Ecommerce Photography 94",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-95",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195705/portfolio/Ecommerce/compressed_33.jpg",
+    alt: "Ecommerce Photography 95",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-96",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195708/portfolio/Ecommerce/compressed_35.jpg",
+    alt: "Ecommerce Photography 96",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-97",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195710/portfolio/Ecommerce/compressed_38.jpg",
+    alt: "Ecommerce Photography 97",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-98",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195713/portfolio/Ecommerce/compressed_42.jpg",
+    alt: "Ecommerce Photography 98",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-99",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195715/portfolio/Ecommerce/compressed_46.jpg",
+    alt: "Ecommerce Photography 99",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-100",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195718/portfolio/Ecommerce/compressed_50.jpg",
+    alt: "Ecommerce Photography 100",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-101",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195720/portfolio/Ecommerce/compressed_51.jpg",
+    alt: "Ecommerce Photography 101",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-102",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195724/portfolio/Ecommerce/compressed_59.jpg",
+    alt: "Ecommerce Photography 102",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-103",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195728/portfolio/Ecommerce/compressed_60.jpg",
+    alt: "Ecommerce Photography 103",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-104",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195731/portfolio/Ecommerce/compressed_69.jpg",
+    alt: "Ecommerce Photography 104",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-105",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195734/portfolio/Ecommerce/compressed_70.jpg",
+    alt: "Ecommerce Photography 105",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-106",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195736/portfolio/Ecommerce/compressed_71.jpg",
+    alt: "Ecommerce Photography 106",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-107",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195738/portfolio/Ecommerce/compressed_73.jpg",
+    alt: "Ecommerce Photography 107",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-108",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195740/portfolio/Ecommerce/compressed_79.jpg",
+    alt: "Ecommerce Photography 108",
+    category: "Ecommerce"
+  },
+  {
+    id: "ecommerce-109",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755195742/portfolio/Ecommerce/compressed_83.jpg",
+    alt: "Ecommerce Photography 109",
+    category: "Ecommerce"
+  }
 ];
 
 export const portfolioData: PortfolioData = {
