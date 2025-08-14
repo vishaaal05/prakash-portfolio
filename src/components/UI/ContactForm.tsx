@@ -70,6 +70,7 @@ const ContactForm: React.FC = () => {
                 <Instagram className="w-5 h-5" />
                 <a 
                   href={`https://instagram.com/${contactInfo.instagram.replace('@', '')}`}
+                  
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-800 transition-colors"

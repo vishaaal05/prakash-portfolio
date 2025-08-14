@@ -1722,9 +1722,9 @@ export const navigationItems: NavigationItem[] = [
 ];
 
 export const contactInfo = {
-  email: "hello@prakashanand.com",
-  phone: "+91 XXX XXX XXXX",
-  instagram: "@prakashanandphotography",
+  email: "pearlcreation0@gmail.com",
+  phone: "+91 7827764837",
+  instagram: "@Pearl.hdcreation",
   services: [
     "Product Photography",
     "Fashion & Portrait",

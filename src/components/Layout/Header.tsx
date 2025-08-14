@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
           {/* Instagram Icon */}
           <div className="hidden md:block">
             <a 
-              href="https://instagram.com/prakashanandphotography" 
+              href="https://www.instagram.com/pearl.hdcreation/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-gray-800 transition-colors"
