@@ -62,12 +62,12 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
               and e-commerce photography with a creative vision.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
+              {/* <button 
                 onClick={scrollToPortfolio}
                 className="bg-white text-gray-800 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors"
               >
                 View Portfolio
-              </button>
+              </button> */}
               <button 
                 onClick={() => onNavigate('/contact')}
                 className="border border-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-gray-800 transition-colors"
