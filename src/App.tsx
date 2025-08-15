@@ -1,6 +1,6 @@
 // App.tsx
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router,  useLocation} from 'react-router-dom';
+import { BrowserRouter as Router, useLocation, useNavigate } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home/Home';
 import Fashion from './pages/Fashion/Fashion';
@@ -12,8 +12,22 @@ type PageType = 'home' | 'fashion' | 'product' | 'ecommerce' | 'contact';
 
 const AppContent: React.FC = () => {
   const location = useLocation();
+  const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState<PageType>('home');
   const [pageTransition, setPageTransition] = useState(false);
+
+  // Set initial page based on URL on mount
+  useEffect(() => {
+    const path = location.pathname;
+    let initialPage: PageType = 'home';
+    
+    if (path.includes('fashion')) initialPage = 'fashion';
+    else if (path.includes('product')) initialPage = 'product';
+    else if (path.includes('ecommerce')) initialPage = 'ecommerce';
+    else if (path.includes('contact')) initialPage = 'contact';
+    
+    setCurrentPage(initialPage);
+  }, [location.pathname]);
 
   // Scroll to top when page changes
   useEffect(() => {
@@ -24,6 +38,9 @@ const AppContent: React.FC = () => {
   }, [currentPage]);
 
   const handleNavigation = (path: string) => {
+    // Update browser URL
+    navigate(path);
+    
     // Add transition effect
     setPageTransition(true);
     
@@ -74,8 +91,8 @@ const AppContent: React.FC = () => {
     }
   };
 
-  // Get the current path without the leading slash
-  const currentPath = location.pathname === '/' ? '' : location.pathname;
+  // Get the current path
+  const currentPath = location.pathname === '/' ? '/home' : location.pathname;
 
   return (
     <Layout 

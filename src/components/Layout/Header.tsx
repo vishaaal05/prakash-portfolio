@@ -9,13 +9,21 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu();
 
   const handleNavClick = (path: string) => {
-    onNavigationClick(path);
+    // If path doesn't start with /, add it
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    onNavigationClick(normalizedPath);
     closeMenu();
   };
 
   const isCurrentPage = (path: string): boolean => {
-    if (path === "/home" && (currentPage === "" || currentPage === "/")) return true;
-    return currentPage === path;
+    // Normalize paths for comparison
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    const normalizedCurrentPage = currentPage.startsWith('/') ? currentPage : `/${currentPage}`;
+    
+    if (normalizedPath === '/home' && (normalizedCurrentPage === '/' || normalizedCurrentPage === '/home')) 
+      return true;
+    
+    return normalizedCurrentPage === normalizedPath;
   };
 
   return (

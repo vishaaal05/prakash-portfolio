@@ -27,6 +27,12 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
     });
   };
 
+  const handleNavigate = (path: string) => {
+    // Ensure the path has a leading slash
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    onNavigate(normalizedPath);
+  };
+
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
@@ -69,7 +75,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
                 View Portfolio
               </button> */}
               <button 
-                onClick={() => onNavigate('/contact')}
+                onClick={() => handleNavigate('/contact')}
                 className="border border-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-gray-800 transition-colors"
               >
                 Get In Touch
@@ -101,7 +107,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
             {/* Fashion Category */}
             <div 
               className="group cursor-pointer"
-              onClick={() => onNavigate('/fashion')}
+              onClick={() => handleNavigate('/fashion')}
             >
               <div className="aspect-square overflow-hidden rounded-lg mb-4">
                 <img
@@ -119,7 +125,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
             {/* Product Category */}
             <div 
               className="group cursor-pointer"
-              onClick={() => onNavigate('/product')}
+              onClick={() => handleNavigate('/product')}
             >
               <div className="aspect-square overflow-hidden rounded-lg mb-4">
                 <img
@@ -137,7 +143,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
             {/* Ecommerce Category */}
             <div 
               className="group cursor-pointer"
-              onClick={() => onNavigate('/ecommerce')}
+              onClick={() => handleNavigate('/ecommerce')}
             >
               <div className="aspect-square overflow-hidden rounded-lg mb-4">
                 <img

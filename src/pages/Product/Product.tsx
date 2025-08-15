@@ -6,7 +6,7 @@ import { portfolioData } from '../../data/portfolioData';
 import { useImageGallery } from '../../hooks/useImageGallery';
 import type { PageProps } from '../../types';
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars, no-empty-pattern
+// eslint-disable-next-line no-empty-pattern
 const Product: React.FC<PageProps> = ({ }) => {
   const productImages = portfolioData.Product;
   const {

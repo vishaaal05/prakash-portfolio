@@ -14,11 +14,21 @@ export const useImageGallery = (images: ImageData[]) => {
     setIsLightboxOpen(false);
   }, [images]);
 
-  const openLightbox = (imageId: string) => {
-    const index = images.findIndex((img) => img.id === imageId);
-    if (index !== -1) {
-      setSelectedImage(images[index]);
+  const openLightbox = (imageOrId: ImageData | string, index?: number) => {
+    // Handle case when an image object and index are passed
+    if (typeof imageOrId !== 'string' && typeof index === 'number') {
+      setSelectedImage(imageOrId);
       setCurrentIndex(index);
+      setIsLightboxOpen(true);
+      return;
+    }
+
+    // Handle case when only an image ID is passed
+    const imageId = typeof imageOrId === 'string' ? imageOrId : imageOrId.id;
+    const foundIndex = images.findIndex((img) => img.id === imageId);
+    if (foundIndex !== -1) {
+      setSelectedImage(images[foundIndex]);
+      setCurrentIndex(foundIndex);
       setIsLightboxOpen(true);
     }
   };
