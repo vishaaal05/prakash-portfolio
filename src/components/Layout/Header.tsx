@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
   };
 
   const isCurrentPage = (path: string): boolean => {
-    if (path === "/home" && currentPage === "") return true;
+    if (path === "/home" && (currentPage === "" || currentPage === "/")) return true;
     return currentPage === path;
   };
 
