@@ -1,9 +1,9 @@
 // components/Layout/Header.tsx
-import React from 'react';
-import { Menu, X, Instagram, } from 'lucide-react';
-import type { HeaderProps } from '../../types';
-import { navigationItems } from '../../data/portfolioData';
-import { useMobileMenu } from '../../hooks/useMobileMenu';
+import React from "react";
+import { Menu, X, Instagram, Linkedin } from "lucide-react";
+import type { HeaderProps } from "../../types";
+import { navigationItems } from "../../data/portfolioData";
+import { useMobileMenu } from "../../hooks/useMobileMenu";
 
 const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
   const { isMenuOpen, toggleMenu, closeMenu } = useMobileMenu();
@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
   };
 
   const isCurrentPage = (path: string): boolean => {
-    if (path === '/home' && currentPage === '') return true;
+    if (path === "/home" && currentPage === "") return true;
     return currentPage === path;
   };
 
@@ -23,11 +23,15 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex items-center justify-between py-3">
           {/* Logo */}
-          <div 
+          <div
             className="text-center cursor-pointer"
-            onClick={() => handleNavClick('/home')}
+            onClick={() => handleNavClick("/home")}
           >
-            <img src="logo.png" alt="Logo" className='h-12 w-full object-contain'/>
+            <img
+              src="logo.png"
+              alt="Logo"
+              className="h-12 w-full object-contain"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -38,34 +42,47 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
                 onClick={() => handleNavClick(item.path)}
                 className={`text-base font-light transition-colors ${
                   isCurrentPage(item.path)
-                    ? 'text-blue-600 border-b-2 border-blue-600 pb-1'
-                    : 'text-gray-600 hover:text-gray-800'
+                    ? "text-blue-600 border-b-2 border-blue-600 pb-1"
+                    : "text-gray-600 hover:text-gray-800"
                 }`}
               >
                 {item.name}
               </button>
             ))}
           </nav>
+          <div className="flex space-x-4">
+            {/* Instagram Icon */}
+            <div className="hidden md:block">
+              <a
+                href="https://www.instagram.com/pearl.hdcreation/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+            </div>
 
-          {/* Instagram Icon */}
-          <div className="hidden md:block">
-            <a 
-              href="https://www.instagram.com/pearl.hdcreation/" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-gray-600 hover:text-gray-800 transition-colors"
-            >
-              <Instagram className="w-5 h-5" />
-  
-            </a>
+            {/* Instagram Icon */}
+            <div className="hidden md:block">
+              <a
+                href="https://www.instagram.com/pearl.hdcreation/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-800 transition-colors"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
-            className="md:hidden"
-            onClick={toggleMenu}
-          >
-            {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          <button className="md:hidden" onClick={toggleMenu}>
+            {isMenuOpen ? (
+              <X className="w-5 h-5" />
+            ) : (
+              <Menu className="w-5 h-5" />
+            )}
           </button>
         </div>
       </div>
@@ -79,21 +96,28 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
                 key={item.path}
                 onClick={() => handleNavClick(item.path)}
                 className={`block w-full text-left text-base font-light transition-colors ${
-                  isCurrentPage(item.path)
-                    ? 'text-blue-600'
-                    : 'text-gray-600'
+                  isCurrentPage(item.path) ? "text-blue-600" : "text-gray-600"
                 }`}
               >
                 {item.name}
               </button>
             ))}
             <div className="pt-3 border-t border-gray-200">
-              <a 
-                href="https://instagram.com/sethphotography" 
-                target="_blank" 
+              <a
+                href="https://www.instagram.com/pearl.hdcreation/"
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <Instagram className="w-5 h-5 text-gray-600" />
+              </a>
+            </div>
+               <div className="pt-3 border-t border-gray-200">
+              <a
+                href="https://www.instagram.com/pearl.hdcreation/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Linkedin className="w-5 h-5 text-gray-600" />
               </a>
             </div>
           </div>
