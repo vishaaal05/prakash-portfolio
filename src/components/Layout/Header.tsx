@@ -10,19 +10,24 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
 
   const handleNavClick = (path: string) => {
     // If path doesn't start with /, add it
-    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    const normalizedPath = path.startsWith("/") ? path : `/${path}`;
     onNavigationClick(normalizedPath);
     closeMenu();
   };
 
   const isCurrentPage = (path: string): boolean => {
     // Normalize paths for comparison
-    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
-    const normalizedCurrentPage = currentPage.startsWith('/') ? currentPage : `/${currentPage}`;
-    
-    if (normalizedPath === '/home' && (normalizedCurrentPage === '/' || normalizedCurrentPage === '/home')) 
+    const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+    const normalizedCurrentPage = currentPage.startsWith("/")
+      ? currentPage
+      : `/${currentPage}`;
+
+    if (
+      normalizedPath === "/home" &&
+      (normalizedCurrentPage === "/" || normalizedCurrentPage === "/home")
+    )
       return true;
-    
+
     return normalizedCurrentPage === normalizedPath;
   };
 
@@ -90,6 +95,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
             onClick={toggleMenu}
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMenuOpen}
+            aria-controls="mobile-menu"
+            onTouchStart={(e) => e.preventDefault()} // Prevent ghost clicks
           >
             {isMenuOpen ? (
               <X className="w-5 h-5 text-gray-700" />
@@ -102,7 +109,8 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200 shadow-lg fixed top-[57px] left-0 right-0 h-auto max-h-[calc(100vh-57px)] overflow-y-auto z-40">
+        <div  id="mobile-menu" className="md:hidden bg-white border-t border-gray-200 shadow-lg fixed top-[57px] left-0 right-0 h-auto max-h-[calc(100vh-57px)] overflow-y-auto z-40"
+        role="navigation">
           <div className="px-6 py-4 space-y-4">
             {navigationItems.map((item) => (
               <button
@@ -130,15 +138,15 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
                 </a>
               </div>
               <div>
-              <a
-                href="https://www.instagram.com/pearl.hdcreation/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                <Linkedin className="w-5 h-5" />
-                <span className="text-sm">LinkedIn</span>
-              </a>
+                <a
+                  href="https://www.instagram.com/pearl.hdcreation/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 transition-colors"
+                >
+                  <Linkedin className="w-5 h-5" />
+                  <span className="text-sm">LinkedIn</span>
+                </a>
               </div>
             </div>
           </div>
