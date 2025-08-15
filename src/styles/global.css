@@ -1,11 +1,20 @@
 Page transitions
+/* Page transitions */
+.page-transition {
+  opacity: 1;
+  transition: opacity 300ms ease-in-out;
+}
+
+.page-transition.transitioning {
+  opacity: 0;
+}
 .page-transition-enter {
   opacity: 0;
 }
 
 .page-transition-enter-active {
   opacity: 1;
-  transition: opacity 200ms;
+  transition: opacity 300ms;
 }
 
 .page-transition-exit {
@@ -14,7 +23,7 @@ Page transitions
 
 .page-transition-exit-active {
   opacity: 0;
-  transition: opacity 200ms;
+  transition: opacity 300ms;
 }
 
 /* Smooth scrolling for the entire site */

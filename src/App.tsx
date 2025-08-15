@@ -37,40 +37,41 @@ const AppContent: React.FC = () => {
     });
   }, [currentPage]);
 
-  const handleNavigation = (path: string) => {
-    // Update browser URL
+const handleNavigation = (path: string) => {
+  setPageTransition(true);
+  
+  // Wait for fade out
+  setTimeout(() => {
     navigate(path);
     
-    // Add transition effect
-    setPageTransition(true);
-    
-    // Short delay to allow fade out transition
+    // Update current page based on path
+    switch (path) {
+      case '/home':
+      case '/':
+        setCurrentPage('home');
+        break;
+      case '/fashion':
+        setCurrentPage('fashion');
+        break;
+      case '/product':
+        setCurrentPage('product');
+        break;
+      case '/ecommerce':
+        setCurrentPage('ecommerce');
+        break;
+      case '/contact':
+        setCurrentPage('contact');
+        break;
+      default:
+        setCurrentPage('home');
+    }
+
+    // Wait for new content to render then fade in
     setTimeout(() => {
-      switch (path) {
-        case '/home':
-        case '/':
-          setCurrentPage('home');
-          break;
-        case '/fashion':
-          setCurrentPage('fashion');
-          break;
-        case '/product':
-          setCurrentPage('product');
-          break;
-        case '/ecommerce':
-          setCurrentPage('ecommerce');
-          break;
-        case '/contact':
-          setCurrentPage('contact');
-          break;
-        default:
-          setCurrentPage('home');
-      }
-      
-      // Reset transition after slight delay
-      setTimeout(() => setPageTransition(false), 50);
-    }, 300);
-  };
+      setPageTransition(false);
+    }, 100);
+  }, 300);
+};
 
   const renderCurrentPage = () => {
     const pageProps = { onNavigate: handleNavigation };
@@ -95,14 +96,14 @@ const AppContent: React.FC = () => {
   const currentPath = location.pathname === '/' ? '/home' : location.pathname;
 
   return (
-    <Layout 
-      currentPage={currentPath}
-      onNavigationClick={handleNavigation}
-    >
-      <div className={`transition-opacity duration-300 ${pageTransition ? 'opacity-0' : 'opacity-100'}`}>
-        {renderCurrentPage()}
-      </div>
-    </Layout>
+      <Layout 
+    currentPage={currentPath}
+    onNavigationClick={handleNavigation}
+  >
+    <div className={`page-transition ${pageTransition ? 'transitioning' : ''}`}>
+      {renderCurrentPage()}
+    </div>
+  </Layout>
   );
 };
 
