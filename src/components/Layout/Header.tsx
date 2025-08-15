@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
             ))}
           </nav>
           <div className="flex space-x-4">
-            {/* Instagram Icon */}
+            {/* Social Icons */}
             <div className="hidden md:block">
               <a
                 href="https://www.instagram.com/pearl.hdcreation/"
@@ -77,11 +77,16 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button className="md:hidden" onClick={toggleMenu}>
+          <button
+            className="md:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors"
+            onClick={toggleMenu}
+            aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+            aria-expanded={isMenuOpen}
+          >
             {isMenuOpen ? (
-              <X className="w-5 h-5" />
+              <X className="w-5 h-5 text-gray-700" />
             ) : (
-              <Menu className="w-5 h-5" />
+              <Menu className="w-5 h-5 text-gray-700" />
             )}
           </button>
         </div>
@@ -89,36 +94,44 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-white border-t border-gray-200">
-          <div className="px-6 py-3 space-y-3">
+        <div className="md:hidden bg-white border-t border-gray-200 shadow-lg fixed top-[57px] left-0 right-0 h-auto max-h-[calc(100vh-57px)] overflow-y-auto z-40">
+          <div className="px-6 py-4 space-y-4">
             {navigationItems.map((item) => (
               <button
                 key={item.path}
                 onClick={() => handleNavClick(item.path)}
-                className={`block w-full text-left text-base font-light transition-colors ${
-                  isCurrentPage(item.path) ? "text-blue-600" : "text-gray-600"
+                className={`block w-full text-left py-2 text-base font-light transition-colors ${
+                  isCurrentPage(item.path)
+                    ? "text-blue-600 font-medium"
+                    : "text-gray-600 hover:text-blue-500"
                 }`}
               >
                 {item.name}
               </button>
             ))}
-            <div className="pt-3 border-t border-gray-200">
+            <div className="pt-4 border-t border-gray-200 flex space-x-6">
+              <div>
+                <a
+                  href="https://www.instagram.com/pearl.hdcreation/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 transition-colors"
+                >
+                  <Instagram className="w-5 h-5" />
+                  <span className="text-sm">Instagram</span>
+                </a>
+              </div>
+              <div>
               <a
                 href="https://www.instagram.com/pearl.hdcreation/"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-center space-x-2 text-gray-600 hover:text-gray-800 transition-colors"
               >
-                <Instagram className="w-5 h-5 text-gray-600" />
+                <Linkedin className="w-5 h-5" />
+                <span className="text-sm">LinkedIn</span>
               </a>
-            </div>
-               <div className="pt-3 border-t border-gray-200">
-              <a
-                href="https://www.instagram.com/pearl.hdcreation/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Linkedin className="w-5 h-5 text-gray-600" />
-              </a>
+              </div>
             </div>
           </div>
         </div>
