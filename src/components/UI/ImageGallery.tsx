@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Masonry from "react-masonry-css";
 import type { ImageData } from "../../types";
 
@@ -13,12 +13,19 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({
   category,
   onImageClick,
 }) => {
+  const [, setIsLoading] = useState(true);
+
   useEffect(() => {
-    console.log(
-      `Rendering ImageGallery for category ${category} with ${images.length} images:`,
-      images
-    );
-  }, [images, category]);
+    // Set loading state when component mounts or images change
+    setIsLoading(true);
+
+    // Use a small timeout to allow for transition effect
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, [images]);
 
   // Masonry responsive breakpoints
   const breakpointColumnsObj = {
