@@ -9,8 +9,8 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
 
   // Featured images from each category
   const featuredImages = [
-    portfolioData.Fashion[1],
-    portfolioData.Product[1],
+    portfolioData.Fashion[19],
+    portfolioData.Product[69],
     portfolioData.Ecommerce[36],
   ];
 
