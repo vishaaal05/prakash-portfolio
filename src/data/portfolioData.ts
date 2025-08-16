@@ -3,7 +3,7 @@ import type { PortfolioData, ImageData, NavigationItem } from "../types/index";
 const fashionImages: ImageData[] = [
   {
     id: "fashion-1",
-    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754632661/portfolio/Fashion/_MG_0423_ff.jpg",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_1200,dpr_auto,q_auto,f_auto/v1754632661/portfolio/Fashion/_MG_0423_ff.jpg",
     alt: "Fashion Photography 1",
     category: "Fashion",
   },
@@ -2010,7 +2010,7 @@ const fashionImages: ImageData[] = [
 const productImages: ImageData[] = [
   {
     id: "product-1",
-    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754632757/portfolio/Product/100.jpg",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_1200,dpr_auto,q_auto,f_auto/v1754632757/portfolio/Product/100.jpg",
     alt: "Product Photography 1",
     category: "Product",
   },
@@ -2843,7 +2843,7 @@ const ecommerceImages: ImageData[] = [
   },
   {
     id: "ecommerce-37",
-    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754761591/portfolio/Ecommerce/4.jpg",
+    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_1200,dpr_auto,q_auto,f_auto/v1754761591/portfolio/Ecommerce/4.jpg",
     alt: "Ecommerce Photography 4",
     category: "Ecommerce",
   },
