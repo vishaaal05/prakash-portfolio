@@ -4,15 +4,57 @@ import { ChevronDown } from 'lucide-react';
 import { portfolioData } from '../../data/portfolioData';
 import { type PageProps } from '../../types';
 
+// custom hook
+const useMediaQuery = (query: string) => {
+  const [matches, setMatches] = useState(false);
+
+  useEffect(() => {
+    const media = window.matchMedia(query);
+    if (media.matches !== matches) {
+      setMatches(media.matches);
+    }
+    const listener = () => setMatches(media.matches);
+    media.addEventListener("change", listener);
+    return () => media.removeEventListener("change", listener);
+  }, [matches, query]);
+
+  return matches;
+};
+
+
 const Home: React.FC<PageProps> = ({ onNavigate }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Featured images from each category
-  const featuredImages = [
+  // Desktop featured images
+  const featuredImagesDesktop = [
     portfolioData.Fashion[19],
     portfolioData.Product[69],
     portfolioData.Ecommerce[36],
   ];
+
+  // Mobile-specific images (tumhare diye hue links)
+  const featuredImagesMobile = [
+    {
+      id: "fashion-mobile",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754630965/portfolio/Fashion/DSC_1268.jpg_final.jpg",
+      alt: "Fashion Photography Mobile",
+    },
+    {
+      id: "product-mobile",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754633056/portfolio/Product/28.jpg",
+      alt: "Product Photography Mobile",
+    },
+    {
+      id: "ecommerce-mobile",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1754761538/portfolio/Ecommerce/34.jpg",
+      alt: "Ecommerce Photography Mobile",
+    },
+  ];
+
+  // check if screen <= 768px (mobile)
+  const isMobile = useMediaQuery("(max-width: 768px)");
+
+  const featuredImages = isMobile ? featuredImagesMobile : featuredImagesDesktop;
 
   useEffect(() => {
     const interval = setInterval(() => {
