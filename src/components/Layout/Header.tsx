@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
             <img
               src="logo.png"
               alt="Logo"
-              className="h-12 w-full object-contain"
+              className="h-14 w-full object-contain"
             />
           </div>
 
@@ -79,7 +79,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigationClick }) => {
             {/* Instagram Icon */}
             <div className="hidden md:block">
               <a
-                href="https://www.instagram.com/pearl.hdcreation/"
+                href="https://www.linkedin.com/in/prakash-kumar-anand-28683317a/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 transition-colors"
