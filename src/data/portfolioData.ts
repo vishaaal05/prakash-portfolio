@@ -1579,18 +1579,18 @@ const fashionImages: ImageData[] = [
     alt: "Fashion Photography 265",
     category: "Fashion"
   },
-  {
-    id: "fashion-266",
-    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
-    alt: "Fashion Photography 266",
-    category: "Fashion"
-  },
-  {
-    id: "fashion-267",
-    url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
-    alt: "Fashion Photography 267",
-    category: "Fashion"
-  },
+  // {
+  //   id: "fashion-266",
+  //   url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+  //   alt: "Fashion Photography 266",
+  //   category: "Fashion"
+  // },
+  // {
+  //   id: "fashion-267",
+  //   url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198288/portfolio/Fashion/compressed_DSC04716_copy.jpg",
+  //   alt: "Fashion Photography 267",
+  //   category: "Fashion"
+  // },
   {
     id: "fashion-268",
     url: "https://res.cloudinary.com/dnr47u7im/image/upload/w_800,q_auto,f_auto/v1755198292/portfolio/Fashion/compressed_DSC04716_copy.jpg",

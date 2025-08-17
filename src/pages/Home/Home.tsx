@@ -27,10 +27,50 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
 
   // Desktop featured images
   const featuredImagesDesktop = [
-    portfolioData.Fashion[19],
-    portfolioData.Product[69],
-    portfolioData.Ecommerce[36],
-  ];
+  {
+    "id": "fashion-2",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430106/DSC01084._final_copy._w_msh8m9.jpg",
+    "alt": "Fashion Photography 2",
+    "category": "Fashion"
+  },
+  // {
+  //   "id": "fashion-3",
+  //   "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430112/2_c5vait.jpg",
+  //   "alt": "Fashion Photography 3",
+  //   "category": "Fashion"
+  // },
+  {
+    "id": "fashion-4",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430119/DSC06342.jpg_final_rp9yv1.jpg",
+    "alt": "Fashion Photography 4",
+    "category": "Fashion"
+  },
+  {
+    "id": "fashion-5",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430099/DSC04479_copy._final_vaxxqs.jpg",
+    "alt": "Fashion Photography 5",
+    "category": "Fashion"
+  },
+  {
+    "id": "fashion-6",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430089/DSC04716_copy._final._mm_hftnbt.jpg",
+    "alt": "Fashion Photography 6",
+    "category": "Fashion"
+  },
+  {
+    "id": "fashion-7",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430173/DSC06812._final_2_csonwe.jpg",
+    "alt": "Fashion Photography 7",
+    "category": "Fashion"
+  },
+    {
+    "id": "fashion-8",
+    "url": "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto/v1755430128/_MG_0239_ff_lxv5ve.jpg",
+    "alt": "Fashion Photography 8",
+    "category": "Fashion"
+  }
+]
+
 
   // Mobile-specific images (tumhare diye hue links)
   const featuredImagesMobile = [
@@ -100,7 +140,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
         <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
           <div className="max-w-4xl text-white">
             <h1 className="text-5xl md:text-7xl font-light mb-6">
-              Prakash Anand
+              Pearl Creation
             </h1>
             <p className="text-xl md:text-2xl mb-8 font-light">
               Professional Photography
