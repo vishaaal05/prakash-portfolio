@@ -76,7 +76,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
   const featuredImagesMobile = [
     {
       id: "fashion-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755793448/02_copy_1_jqr2jr.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755793448/02_copy_1_jqr2jr.jpg",
       alt: "Fashion Photography Mobile",
     },
     {
@@ -86,26 +86,26 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
     },
     {
       id: "ecommerce-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755196360/portfolio/Product/compressed_82.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755196360/portfolio/Product/compressed_82.jpg",
       alt: "Ecommerce Photography Mobile",
     },
       {
       id: "ecommerce-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755793446/11_1_brvyui.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755793446/11_1_brvyui.jpg",
       alt: "Ecommerce Photography Mobile",
     },
       {
       id: "ecommerce-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755793445/8_1_jbuvqd.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755793445/8_1_jbuvqd.jpg",
       alt: "Ecommerce Photography Mobile",
     },
       {
       id: "ecommerce-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755793442/3_1_iy4q7v.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755793442/3_1_iy4q7v.jpg",
       alt: "Ecommerce Photography Mobile",
     },  {
       id: "ecommerce-mobile",
-      url: "https://res.cloudinary.com/dnr47u7im/image/upload/v1755196362/portfolio/Product/compressed_83.jpg",
+      url: "https://res.cloudinary.com/dnr47u7im/image/upload/q_auto,f_auto,w_800/v1755196362/portfolio/Product/compressed_83.jpg",
       alt: "Ecommerce Photography Mobile",
     },
   ];
