@@ -72,7 +72,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
 ]
 
 
-  // Mobile-specific images (tumhare diye hue links)
+  // Mobile-specific images 
   const featuredImagesMobile = [
     {
       id: "fashion-mobile",
@@ -149,7 +149,7 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
               <img
                 src={image.url}
                 alt={image.alt}
-                className="w-full h-full object-cover"
+                className="w-full h-auto object-contain"
               />
               <div className="absolute inset-0 bg-black bg-opacity-40"></div>
             </div>
