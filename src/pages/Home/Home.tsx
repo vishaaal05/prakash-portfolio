@@ -149,7 +149,9 @@ const Home: React.FC<PageProps> = ({ onNavigate }) => {
               <img
                 src={image.url}
                 alt={image.alt}
-                className="w-full h-auto object-contain"
+                className={`w-full ${
+                  isMobile ? ' h-full object-cover' : ' h-auto object-contain'
+                }`}
               />
               <div className="absolute inset-0 bg-black bg-opacity-40"></div>
             </div>
